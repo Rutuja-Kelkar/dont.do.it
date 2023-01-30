@@ -1,0 +1,154 @@
+<!-- index.html code - my first try without refering
+https://github.com/knadh/dont.build/blob/HEAD/index.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Don't do it(do it) - a decision making tool</title>
+
+    <!-- to add - 
+                 1. og. image 
+                 2. favicon
+     -->
+
+    <link rel"stylesheet" href="/css/main.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="apply_box">
+        <h1>
+          Don't do it(do it)
+          <span id="low_high">
+            1:low, 10:high [1],[2] & so on are definitions</span
+          >
+        </h1>
+
+        <p id="description">
+          A basic tool, to help you take important and long term decisions
+          around 3 basic life's pillars(Health, wealth and relationships). Try
+          it below!
+        </p>
+
+        <form>
+          <div class="form_container">
+            <div class="form_control">
+              <label for="intent"
+                >How clear is your intent to pursue your decision?
+                <!-- to add - 
+                  1. range number in label name
+                  2. range indicator in range type display -->
+                <input id="intent" name="intent" type="range" />
+              </label>
+
+              <label for="resources"
+                >What is the availability of resources you have to pursue your
+                decision?
+                <!-- to add - 
+                  1. range number in label name
+                  2. range indicator in range type display -->
+                <input id="resources" name="resources" type="range" />
+              </label>
+
+              <label for="skill"
+                >How much skill do you have to pursue your decision?
+                <!-- to add - 
+                  1. range number in label name
+                  2. range indicator in range type display -->
+                <input id="skill" name="skill" type="range" />
+              </label>
+
+              <label for="3_basic_pillars"
+                >How close does the decision your trying to make or the action
+                your about to do lie in one of the 3 basic life pillars- health,
+                wealth, and relationships?
+                <!-- to add - 
+                  1. range number in label name
+                  2. range indicator in range type display -->
+                <input
+                  id="3_basic_pillars"
+                  name="3_basic_pillars"
+                  type="range"
+                />
+              </label>
+
+              <label for="health"
+                >How helpful it is for your long term health?
+                <!-- to add - 
+                  1. range number in label name
+                  2. range indicator in range type display -->
+                <input id="health" name="health" type="range" />
+              </label>
+
+              <label for="wealth"
+                >How helpful it is for your long term wealth?
+                <!-- to add - 
+                  1. range number in label name
+                  2. range indicator in range type display -->
+                <input id="wealth" name="wealth" type="range" />
+              </label>
+
+              <label for="relationships"
+                >How helpful it is for your long term non-negotiable
+                relationships?
+                <!-- to add - 
+                  1. range number in label name
+                  2. range indicator in range type display -->
+                <input id="relationships" name="relationships" type="range" />
+              </label>
+
+              <button type="submit">Show answer</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <p id="description">
+        Definitions:<br />
+        [1] intent - Honest intent, drive, consistency and will to pursue a
+        decision. <br />
+        [2] resources - Time, money, material, and other resources required to
+        fulfil that decision.<br />
+        [3] skill - Physical and mental skills, and the knowledge to pursue a
+        decision.<br />
+        [4] Health - Healthy mind and environment.
+        <br />[5] wealth - Time, money, material, and other resources required
+        to fulfil that decision.<br />
+        [6] relationships - All relationships inclusive of family, friends,
+        colleagues etc.<br />
+        [7] life’s levels - every thing we do eg: education, career,
+        relationships etc is a life’s stage leading to unlock next level.<br />
+        [8] long term decisions- Are those decisions that matter over 10+
+        years.<br /><br />
+        This tool is majorly helpful for age group 14-30 years who are focused
+        on taking important and long term life’s decisions. "Living on planet
+        earth" (as long as you are alive) on an average is a 60 to 80 year game
+        and to pass life's levels[4] "long term decisions"[5] play prime role.
+        All decisions revolve around 3 basic pillars, which are - Health, wealth
+        and relationships. Although taking a decision involves personalized
+        factors, instincts, and uncontrollable factors which can be deal
+        situationally. Above mentioned are basic to consider. Most answers are
+        found if you care about the basics and think long term.
+      </p>
+
+      <p>
+        <a href="/in_depth_reading.html">For in depth reading</a>&ensp;
+        <a href="/project_details.html">Don’t do it (do it) project details</a
+        >&ensp; <a href="<!-- add location -->">Tool use cases</a>&ensp;
+      </p>
+    </div>
+
+    <footer>
+      <p>
+        Rutuja Kelkar@2023/
+        <a href="<!-- add location -->">Github</a>&ensp;
+        <a href="mailto:rutujakelkar.tech@gmail.com">Email</a>&ensp;
+        <a href="<!-- twitter url -->">Twitter</a>&ensp;
+        <a href="<!-- Linkedn url -->">Linkedln</a>
+      </p>
+    </footer>
+  </body>
+</html>
